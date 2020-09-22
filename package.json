@@ -17,8 +17,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js --watch src/*"
+    "dev": "nodemon src/index.js --watch src/*",
+    "start": "node src/index.js"
+  },"engines":{
+    "node": "12.18.4"
   },
   "author": "",
   "license": "ISC"
 }
+
